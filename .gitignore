@@ -1,0 +1,43 @@
+# Generated test fixtures, probe output, diagnostics and native process logs
+/tests/artifacts/
+**/Join-Mp4-work-*/
+/diagnostics/
+/backups/
+/tmp/
+*.log
+*.stdout.txt
+*.stderr.txt
+*.ffconcat
+
+# User media and partial encodes never belong in the source repository
+*.mp4
+*.m4v
+*.mkv
+*.mov
+*.avi
+*.ts
+*.mts
+*.m2ts
+*.wav
+*.mp3
+*.aac
+*.flac
+*.partial.*
+
+# Local backups, private paths, credentials and editor state
+*.bak
+*.backup-*.ps1
+*.before-*.ps1
+*.local.*
+/local/
+/private/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+/.vs/
+/.idea/
+*.user
+*.suo
