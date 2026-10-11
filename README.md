@@ -107,6 +107,12 @@ The suite uses small synthetic clips and requires no Python or user media. It ke
 
 The suite has passed with FFmpeg 6.1, Windows PowerShell 5.1.19041.7725, and PowerShell 7.6.5. Each run records its PowerShell version and results in the retained JSON reports.
 
+## License
+
+Join-Mp4 is licensed under the [MIT License](LICENSE). You may use, modify, and redistribute it, including commercially, provided you retain the copyright and permission notices.
+
+FFmpeg and ffprobe are external dependencies, installed separately and not included in this repository. Their [licenses](https://ffmpeg.org/legal.html) apply independently; redistributing their binaries requires compliance with the license of the specific build.
+
 ## References
 
 The FFmpeg documentation explains the operations used by the script:
